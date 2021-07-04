@@ -9,5 +9,5 @@ abstract public class Employee {
     }
 
     public abstract double calculateSalary(String employmentType);
-
+    //commit changes
 }
