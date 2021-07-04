@@ -3,7 +3,7 @@ package com.company.inheritancedemo;
 public class Bike extends Vehicle{
 
     public Bike(){
-        //super(); similar as Vehicle(); if we dot call it JVM automatically calls the constructor of the super class
+        //super(); similar as Vehicle(); if we don't call it JVM automatically calls the constructor of the super class
         System.out.println("default constructor for bike child class");
         super.setVehicleType("bike is two wheeler");
     }
