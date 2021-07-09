@@ -1,10 +1,13 @@
 package com.company.inheritanceproblem;
 
-public class ChemistryTeacher extends School {
-    public ChemistryTeacher(){
-        super.setSub3("chemistry");
+public class ChemistryTeacher extends Teacher {
+
+    String subject;
+
+    public ChemistryTeacher(String subject){
+        this.subject = subject;
     }
-    public void teach(){
-        System.out.println("I teach "+ super.getSub3());
+    public void details(){
+        System.out.println("My job is "+profession+" as a "+subject+" in "+schoolName);
     }
 }
