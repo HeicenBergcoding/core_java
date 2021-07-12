@@ -60,7 +60,7 @@ public class EmpMain {
             System.out.println(empList.get(i).empName );
         }
 
-        //Ascending order salaries of Employees
+        //Ascending order salaries of Employeees
 
         System.out.println("---------------------------");
         System.out.println("list of employee salaries in ascending order");
