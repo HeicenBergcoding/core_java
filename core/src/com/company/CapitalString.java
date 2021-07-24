@@ -36,4 +36,23 @@ public class CapitalString {
         sentence = String.valueOf(characters);
         System.out.println("Message: " + sentence);
     }
+
+    public static class CheckPrime {
+        public static void main(String[]args){
+
+            int num=23;
+            int facts=0;
+
+            for(int i=1;i<=num;i++){
+                if(num%i==0){
+                    facts=facts+1;
+                }
+            }
+            if(facts<=2){
+                System.out.println("prime");
+            }else{
+                System.out.println("not prime");
+            }
+        }
+    }
 }
