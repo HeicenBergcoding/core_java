@@ -28,8 +28,7 @@ public class CheckoutMain {
      public static void checkoutCheck(Double requiredMoney) throws LessMoneyExceptionMain{
 
         if(requiredMoney < basket.bill){
-            LessMoneyExceptionMain ls = new LessMoneyExceptionMain("YOU DON'T HAVE BALANCE FOR FURTHER SHOPPING");
-            throw ls;
+            throw new LessMoneyExceptionMain("YOU DON'T HAVE BALANCE FOR FURTHER SHOPPING");
         }else{
             System.out.println("yay buy successful");
         }

@@ -9,7 +9,8 @@ public class StaticDemo {
 
     public StaticDemo(int empId,int a){
         System.out.println("Default constructor");
-        //System.out.println("empId in constructor" + StaticDemo.empId);//doubt
+        //System.out.println("empId in constructor" + StaticDemo.empId);
+        this.empId = empId;
         System.out.println("empId in constructor using this " + this.empId);//doubt
         System.out.println("empId in constructor " + empId);//doubt
         System.out.println("value of a in constructor "+ StaticDemo.a);

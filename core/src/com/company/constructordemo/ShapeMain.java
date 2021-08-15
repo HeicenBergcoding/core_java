@@ -8,9 +8,10 @@ public class ShapeMain {
         // length breadth and shapeType are initialised by default values of the constructor by JVM
 
 
-        Shape s1 = new Shape(20,"Sqaure");
+        Shape s1 = new Shape(20,"Square");
         //this and s1 points to the same object and JVM will initialise only the breadth variable ,
         // length and shapeType parameter are initialised by us.
+        s1.test();
 
 
         Shape s2 = new Shape(20,10,"rectangle");

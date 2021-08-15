@@ -1,8 +1,10 @@
 package com.company.constructordemo;
 
+import java.io.PrintStream;
+
 public class Shape {
 
-    int length;
+    int length=12;
     int breadth;
     String shapeType;
     //Default constructors gets called during object creation and its job is to
